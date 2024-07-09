@@ -66,15 +66,18 @@ body{
     font-size: 48px;
     font-weight: 800;
     line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
 }
 
 .header-banner-description{
-    padding: 24px 0px;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
 }
 .header-banner-description-btn{
     margin: 32px 322px 44px 322px;
@@ -89,3 +92,156 @@ body{
     font-weight: 600;
     line-height: 23px;
     }
+
+    /* Why Web Dev styles starts  */
+    .why-web-dev{
+        width: 1140px;
+        height: 1395px; 
+       
+        margin: 54px auto;
+    }
+    .why-web-dev-container{
+        width: 946px;
+        height: 1235px;
+        margin: 80px 97px;
+       
+    }
+    .why-web-dev-text-content{
+        margin: 0px 47px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .why-web-dev-ques{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 37px;
+        margin-bottom: 24px;
+    }
+    .why-web-dev-answer{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        opacity: 0.7;
+        text-align: center;
+    }
+    .will-do-code{
+        margin: 48px 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+   
+    .will-do-code-text h5{
+        color: rgba(13, 19, 33, 0.7);
+        font-family: Azeret Mono;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom:20px
+    }
+   
+    .will-do-code-text p{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 32px;
+        opacity: 0.7;
+    }
+    
+    .will-do-code-text button{
+        border: 1px solid rgb(13, 19, 33);
+        opacity: 0.7;
+        width: 150px;
+        height: 48px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 20px 12px 20px;
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: 0%;
+        text-align: center;
+     }
+     .will-do-code-img{
+        width: 206.4px;
+        height: 187.32px;
+        left: 8.14%;
+        right: -8.14%;
+        top: 14.06%;
+        bottom: -14.06%;
+     }
+    .will-help-people{
+        margin: 48px 0px;
+        margin-bottom: 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .will-help-people-img img{
+       
+        width: 223.2px;
+        height: 208.85px;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        margin-right: 48.8px;
+        margin-left: 44px;
+    }
+     .will-help-people-text h5{
+        color: rgba(13, 19, 33, 0.7);
+        font-family: Azeret Mono;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom:20px
+    }
+    .will-help-people p{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 32px;
+        opacity: 0.7;
+    }
+    .will-help-people button{
+        border: 1px solid rgb(13, 19, 33);
+        opacity: 0.7;
+        width: 150px;
+        height: 48px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 20px 12px 20px;
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: 0%;
+        text-align: center;
+     }
