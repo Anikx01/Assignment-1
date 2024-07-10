@@ -86,14 +86,15 @@ body{
     padding: 21px 24px 21px 24px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
-}
-.header-banner-description-btn a{
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
     font-size: 15px;
     font-weight: 600;
     line-height: 23px;
     text-decoration: none ;
+}
+.header-banner-description-btn a{
+    
 } 
 
     /* Why Web Dev styles starts  */
