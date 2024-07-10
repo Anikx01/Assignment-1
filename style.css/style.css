@@ -312,9 +312,200 @@ body{
     .my-inspiration-video iframe{
         width: 1076px;
         height: 550px;
-        
-        border-radius: 20px;
-        
         padding: 48px 0px;
     }
-    
+    .rounded-iframe {
+        border-radius: 15px;
+        border: none;
+        overflow: hidden;
+      }
+    /* My current target section style */
+    .my-current-target{
+        width: 1140px;
+        height: 463px;
+        margin: 0px auto;
+        margin-bottom: 60px;
+    }
+    .my-current-target-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .my-current-target-text{
+        width: 946px;
+        height: 115px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0px;
+        margin-bottom: 48px;
+    }
+    .my-current-target-text h3{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 37px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin:24px 0px
+    }
+    .my-current-target-text p{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: center;
+        opacity: 0.7;
+       
+    }
+    .my-current-target-lagnuages{
+        width: 1140px;
+        height: 300px;
+        display: flex;
+        justify-content: space-evenly;
+          
+    }
+    .html{
+        width: 364px;
+        height: 300px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 40px;border-radius: 16px;
+        background: rgba(255, 76, 30, 0.05);
+        margin: 0px 24px;
+    }
+    .html img{
+        width: 39.68px;
+        height: 45px;
+    }
+    .html h6{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .html p{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin: 8px 0px;
+    }
+    .html a{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-decoration-line: underline;
+    }
+   
+    .css{
+        width: 364px;
+        height: 300px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 40px;border-radius: 16px;
+        background: rgba(255, 76, 30, 0.05);
+        margin: 0px 24px;
+    }
+    .css img{
+        width: 39.68px;
+        height: 45px;
+    }
+    .css h6{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .css p{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin: 8px 0px;
+    }
+    .css a{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-decoration-line: underline;
+    }
+
+    .js{
+        width: 364px;
+        height: 300px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 40px;border-radius: 16px;
+        background: rgba(255, 76, 30, 0.05);
+        margin: 0px 24px;
+    }
+    .js img{
+        width: 39.68px;
+        height: 45px;
+    }
+    .js h6{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .js p{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin: 8px 0px;
+    }
+    .js a{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-decoration-line: underline;
+    }
+    /* Need support section style */
