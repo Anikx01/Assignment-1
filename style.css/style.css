@@ -93,7 +93,7 @@ body{
     font-size: 15px;
     font-weight: 600;
     line-height: 23px;
-    text-decoration: none;
+    text-decoration: none ;
 } 
 
     /* Why Web Dev styles starts  */
@@ -101,7 +101,7 @@ body{
         width: 1140px;
         height: 1560px; 
         margin: 54px auto;
-        border: 2px solid orangered;
+
         border-radius: 16px;
         background: rgba(13, 19, 33, 0.04);
     }
@@ -264,7 +264,6 @@ body{
         width: 1140px;
         height: 777px;
         margin: 0px auto;
-        border: 2px solid green;
         margin-bottom: 150px;
     }
     .my-inspiration-content{
@@ -309,17 +308,17 @@ body{
         width: 1140px;
         height: 614px;
         /* Auto layout */
-        
+        margin-top:40px;
         padding: 32px;
     }
     .my-inspiration-video iframe{
         width: 1076px;
         height: 550px;
-        padding: 48px 0px;
+        padding: 0px 0px;
     }
     .rounded-iframe {
         border-radius: 15px;
-        border: none;
+        border: 2px solid white;
         overflow: hidden;
       }
     /* My current target section style */
@@ -620,7 +619,7 @@ body{
         
         border-radius: 16px;
         background: rgba(13, 19, 33, 0.08);
-        padding: 32px 270px 32px 270px;
+        padding: 32px 100px 32px 100px;
         
     }
     .footer-container{
