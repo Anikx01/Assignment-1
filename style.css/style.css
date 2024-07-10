@@ -509,3 +509,106 @@ body{
         text-decoration-line: underline;
     }
     /* Need support section style */
+    .i-need-support{
+        width: 1140px;
+        height: 314px;
+        left: 150px;
+        right: 150px;
+        top: 4752px;
+        bottom: 179px;
+        background-image: url('../assets/handshake.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 64px 48px 64px 48px;
+        border-radius: 16px;
+        background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+        margin: 0px auto;
+        margin-bottom: 48px;
+    }
+    .i-need-support-container{
+        width: 1044px;
+        height: 186px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        padding: 32px 0px; 
+    } 
+    .i-need-support-text {
+        width: 730px;
+        height: 104px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin-bottom: 24px;
+    }
+    .i-need-support-text h5{
+        color: rgb(255, 255, 255);
+        font-family: Azeret Mono;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .i-need-support-text p{
+        color: rgb(255, 255, 255);
+        font-family: Azeret Mono;
+        opacity: 0.8;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+     
+    .i-need-support-input{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center
+    }
+
+    .i-need-support-input input{
+        width: 548px;
+        height: 57px;
+        /* Auto layout */
+        ;
+        padding: 19px 20px 19px 20px;
+        box-sizing: border-box;
+        border: 1px solid rgba(13, 19, 33, 0.15);
+        border-radius: 8px;
+        background: rgb(255, 255, 255);
+    }
+    .i-need-support-input button{
+        width: 120px;
+        height: 58px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 17px 20px 17px 20px;
+        margin: 0px 16px;
+        border-radius: 8px;
+        background: rgb(255, 255, 255);
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
