@@ -86,12 +86,15 @@ body{
     padding: 21px 24px 21px 24px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
+}
+.header-banner-description-btn a{
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     line-height: 23px;
-    }
+    text-decoration: none;
+} 
 
     /* Why Web Dev styles starts  */
     .why-web-dev{
@@ -612,3 +615,37 @@ body{
         letter-spacing: 0%;
         text-align: center;
     }
+    /* Footer section style */
+    .final-part-footer{
+        
+        border-radius: 16px;
+        background: rgba(13, 19, 33, 0.08);
+        padding: 32px 270px 32px 270px;
+        
+    }
+    .footer-container{
+        width: 1140px;
+        height: 36px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+    }
+    .footer-text{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: 0%;
+        text-align: center;
+}
+.social{
+    width: 13.25px;
+    height: 28.25px;
+    left: 11.53px;
+    top: 7.75px;
+}
+
