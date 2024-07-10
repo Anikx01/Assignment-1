@@ -36,7 +36,9 @@ body{
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     opacity: 0.8;
+    cursor: pointer;
 }
+
 /* Header banner section style */
 .header{
     margin-top: 47px;
@@ -92,10 +94,8 @@ body{
     font-weight: 600;
     line-height: 23px;
     text-decoration: none ;
+    cursor: pointer;
 }
-.header-banner-description-btn a{
-    
-} 
 
     /* Why Web Dev styles starts  */
     .why-web-dev{
@@ -190,6 +190,7 @@ body{
         line-height: 23px;
         letter-spacing: 0%;
         text-align: center;
+        cursor: pointer;
      }
      .will-do-code-img{
         width: 259.56px;
@@ -259,6 +260,7 @@ body{
         line-height: 23px;
         letter-spacing: 0%;
         text-align: center;
+        cursor: pointer;
      }
      /* My inspiration section starts */
     .my-inspiration{
@@ -614,6 +616,7 @@ body{
         line-height: 23px;
         letter-spacing: 0%;
         text-align: center;
+        cursor: pointer;
     }
     /* Footer section style */
     .final-part-footer{
@@ -647,5 +650,6 @@ body{
     height: 28.25px;
     left: 11.53px;
     top: 7.75px;
+    cursor: pointer;
 }
 
