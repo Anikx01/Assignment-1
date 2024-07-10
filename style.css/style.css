@@ -97,8 +97,8 @@ body{
     .why-web-dev{
         width: 1140px;
         height: 1395px; 
-       
         margin: 54px auto;
+        border: 2px solid orangered;
     }
     .why-web-dev-container{
         width: 946px;
@@ -245,3 +245,4 @@ body{
         letter-spacing: 0%;
         text-align: center;
      }
+     /* My inspiration section starts */
